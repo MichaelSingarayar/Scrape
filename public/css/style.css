@@ -1,0 +1,97 @@
+body {
+    background: url("/img/bg.jpg") no-repeat center center fixed;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+.navbar-brand {
+  font-size: xx-large;
+}
+
+.top-buttons {
+  float: right;
+  margin: 1%;
+}
+
+.top-buttons li {
+  margin: 0 2px;
+}
+
+.article {
+  margin: 3% 5%;
+  background-color: rgba(0,0,0,0.5);
+  padding: 10px;
+}
+
+.article img {
+  box-shadow: 5px 5px 12px rgb(78, 78, 78);
+}
+
+.article h2 {
+  color:white;
+  font-weight: bolder;
+ 
+}
+
+a:hover {
+  color: red;
+}
+
+
+
+.article p {
+  color: white;
+  font-weight: bold;
+}
+
+.load {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+/*MODAL*/
+.modal-content {
+  background-color: grey;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  background-position: center 12%;
+  border-radius: 0;
+  color: white;
+
+}
+
+.modal-body {
+  padding-top: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: flex-start;
+}
+
+#titleinput {
+  margin-top: 1%;
+}
+
+#bodyinput {
+  margin-top: .5%;
+}
+
+#savenote {
+  margin-left: 45%;
+}
